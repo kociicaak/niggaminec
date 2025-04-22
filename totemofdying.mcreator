@@ -1,0 +1,183 @@
+{
+  "mod_elements": [
+    {
+      "name": "TotemOfDying",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_dying",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/totemofdying/models/item/totem_of_dying.json",
+          "src/main/java/net/mcreator/totemofdying/item/TotemOfDyingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfDyingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_dying_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/totemofdying/recipes/totem_of_dying_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofdying/potion/TotemEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfDyingPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_dying_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofdying/procedures/TotemOfDyingPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HEAL",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofdying/potion/HEALMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HEALActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofdying/procedures/HEALActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfBackPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_back_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofdying/procedures/TotemOfBackPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfBack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_back",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofdying/item/TotemOfBackItem.java",
+          "src/main/resources/assets/totemofdying/models/item/totem_of_back.json"
+        ]
+      }
+    },
+    {
+      "name": "MoreTotems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_totems",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BetterTotemOfBack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_totem_of_back",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/totemofdying/item/BetterTotemOfBackItem.java",
+          "src/main/resources/assets/totemofdying/models/item/better_totem_of_back.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "effect.totemofdying.heal": "tntImmunity",
+      "item_group.totemofdying.more_totems": "More Totems",
+      "item.totemofdying.totem_of_dying": "Totem Of Kaboom",
+      "effect.totemofdying.totem_effect": "Totem Effect",
+      "item.totemofdying.totem_of_back": "Totem Of Back",
+      "item.totemofdying.better_totem_of_back": "Better Totem Of Back",
+      "item.totemofdying.totem_of_dying.description_0": "use this item for your pleasure",
+      "item.totemofdying.totem_of_dying.description_1": "eat your foreskin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "totemofdying",
+    "modName": "TotemOfDying",
+    "version": "1.0.0",
+    "author": "kubin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.totemofdying"
+  },
+  "mcreatorVersion": 202500110519
+}

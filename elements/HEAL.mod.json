@@ -1,0 +1,50 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "tntImmunity",
+    "icon": "totem_effect",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "ARMOR"
+        },
+        "amount": 1000.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "MAX_HEALTH"
+        },
+        "amount": 1000.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "KNOCKBACK_RESISTANCE"
+        },
+        "amount": -1000.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "ENTITY_GRAVITY"
+        },
+        "amount": 0.0,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

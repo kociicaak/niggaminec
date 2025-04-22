@@ -1,0 +1,29 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Totem Effect",
+    "icon": "totem_of_dying",
+    "color": {
+      "value": -13434880,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "MOVEMENT_SPEED"
+        },
+        "amount": -1000.0,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

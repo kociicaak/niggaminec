@@ -1,0 +1,11 @@
+{
+  "_fv": 77,
+  "_type": "tab",
+  "definition": {
+    "name": "More Totems",
+    "icon": {
+      "value": "CUSTOM:TotemOfDying"
+    },
+    "showSearch": false
+  }
+}
